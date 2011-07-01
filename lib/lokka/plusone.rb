@@ -33,7 +33,13 @@ module Lokka
 
       data = []
       opts.each {|opt| data << opt.join('="') + '"'}
-      code = "<g:plusone " + data.join(' ') + "></g:plusone>"
+      if Option.plusone_tag_type == "html5"
+        code = %Q(<div class="g-plusone" data-)
+        code += data.join(" data-") 
+        code += "></div>"
+      else
+        code = "<g:plusone " + data.join(' ') + "></g:plusone>"
+      end
     end
   end
 end

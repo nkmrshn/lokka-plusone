@@ -75,4 +75,10 @@
     %br
     %input{:type => 'text', :id => 'plusone_callback_js', :name => 'plusone_callback_js', :value => Option.plusone_callback_js}
   .field
+    %label{:for => 'plusone_tag_type'}= t.plusone_tag_type
+    %br
+    %select{:id => 'plusone_tag_type', :name => 'plusone_tag_type'}
+      %option{:value => 'dom', :selected => Option.plusone_tag_type == 'dom' || Option.plusone_tag_type.blank?}= t.plusone_tag_type_dom
+      %option{:value => 'html5', :selected => Option.plusone_tag_type == 'html5'}= t.plusone_tag_type_html5
+  .field
     %input{:type => 'submit', :value => t.edit}

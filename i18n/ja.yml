@@ -58,3 +58,6 @@ plusone_parsetags: 表示するタイミング
 plusone_parsetags_onload: onload（既定）
 plusone_parsetags_explicit: explicit
 plusone_callback_js: JSコールバック関数
+plusone_tag_type: タグの種類
+plusone_tag_type_dom: DOM
+plusone_tag_type_html5: HTML5

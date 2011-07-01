@@ -58,3 +58,6 @@ plusone_parsetags: Parse
 plusone_parsetags_onload: onload (Default)
 plusone_parsetags_explicit: explicit
 plusone_callback_js: JS Callback function
+plusone_tag_type: Tag Type
+plusone_tag_type_dom: DOM
+plusone_tag_type_html5: HTML5
