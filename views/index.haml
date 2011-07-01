@@ -1,0 +1,78 @@
+%h2= t.plusone
+%form{:action => '/admin/plugins/plusone', :method => 'post'}
+  %input{:type => 'hidden', :name => '_method', :value => 'put'}
+  .field
+    %label{:for => 'plusone_size'}= t.plusone_size
+    %br
+    %select{:id => 'plusone_size', :name => 'plusone_size'}
+      %option{:value => 'small', :selected => Option.plusone_size == 'small'}= t.plusone_size_small
+      %option{:value => 'medium', :selected => Option.plusone_size == 'medium'}= t.plusone_size_medium
+      %option{:value => 'standard', :selected => Option.plusone_size == 'standard' || Option.plusone_size.blank? }= t.plusone_size_standard
+      %option{:value => 'tall', :selected => Option.plusone_size == 'tall'}= t.plusone_size_tall
+  .field
+    %label{:for => 'plusone_counter'}= t.plusone_counter
+    %br
+    %input{:type => 'radio', :id => 'plusone_counter_true', :name => 'plusone_counter', :value => 'true', :checked => Option.plusone_counter == 'true' || Option.plusone_counter.blank? }
+    %label{:for => 'plusone_counter_true'}= t.plusone_counter_true
+    %input{:type => 'radio', :id => 'plusone_counter_false', :name => 'plusone_counter', :value => 'false', :checked => Option.plusone_counter == 'false'}
+    %label{:for => 'plusone_counter_false'}= t.plusone_counter_false
+  .field
+    %label{:for => 'plusone_lang'}= t.plusone_lang
+    %br
+    %select{:id => 'plusone_lang', :name => 'plusone_lang'}
+      %option{:value => 'ar', :selected => Option.plusone_lang == 'ar'}= t.plusone_lang_ar
+      %option{:value => 'bg', :selected => Option.plusone_lang == 'bg'}= t.plusone_lang_bg
+      %option{:value => 'ca', :selected => Option.plusone_lang == 'ca'}= t.plusone_lang_ca
+      %option{:value => 'zh-CN', :selected => Option.plusone_lang == 'zh-CN'}= t.plusone_lang_zhCN
+      %option{:value => 'zh-TW', :selected => Option.plusone_lang == 'zh-TW'}= t.plusone_lang_zhTW
+      %option{:value => 'hr', :selected => Option.plusone_lang == 'hr'}= t.plusone_lang_hr
+      %option{:value => 'cs', :selected => Option.plusone_lang == 'cs'}= t.plusone_lang_cs
+      %option{:value => 'da', :selected => Option.plusone_lang == 'da'}= t.plusone_lang_da
+      %option{:value => 'nl', :selected => Option.plusone_lang == 'nl'}= t.plusone_lang_nl
+      %option{:value => 'en-GB', :selected => Option.plusone_lang == 'en-GB'}= t.plusone_lang_enGB
+      %option{:value => 'en-US', :selected => Option.plusone_lang == 'en-US' || Option.plusone_lang.blank? }= t.plusone_lang_enUS
+      %option{:value => 'et', :selected => Option.plusone_lang == 'et'}= t.plusone_lang_et
+      %option{:value => 'fil', :selected => Option.plusone_lang == 'fil'}= t.plusone_lang_fil
+      %option{:value => 'fi', :selected => Option.plusone_lang == 'fi'}= t.plusone_lang_fi
+      %option{:value => 'fr', :selected => Option.plusone_lang == 'fr'}= t.plusone_lang_fr
+      %option{:value => 'de', :selected => Option.plusone_lang == 'de'}= t.plusone_lang_de
+      %option{:value => 'el', :selected => Option.plusone_lang == 'el'}= t.plusone_lang_el
+      %option{:value => 'iw', :selected => Option.plusone_lang == 'iw'}= t.plusone_lang_iw
+      %option{:value => 'hi', :selected => Option.plusone_lang == 'hi'}= t.plusone_lang_hi
+      %option{:value => 'hu', :selected => Option.plusone_lang == 'hu'}= t.plusone_lang_hu
+      %option{:value => 'id', :selected => Option.plusone_lang == 'id'}= t.plusone_lang_id
+      %option{:value => 'it', :selected => Option.plusone_lang == 'it'}= t.plusone_lang_it
+      %option{:value => 'ja', :selected => Option.plusone_lang == 'ja'}= t.plusone_lang_ja
+      %option{:value => 'ko', :selected => Option.plusone_lang == 'ko'}= t.plusone_lang_ko
+      %option{:value => 'lv', :selected => Option.plusone_lang == 'lv'}= t.plusone_lang_lv
+      %option{:value => 'lt', :selected => Option.plusone_lang == 'lt'}= t.plusone_lang_lt
+      %option{:value => 'ms', :selected => Option.plusone_lang == 'ms'}= t.plusone_lang_ms
+      %option{:value => 'no', :selected => Option.plusone_lang == 'no'}= t.plusone_lang_no
+      %option{:value => 'fa', :selected => Option.plusone_lang == 'fa'}= t.plusone_lang_fa
+      %option{:value => 'pl', :selected => Option.plusone_lang == 'pl'}= t.plusone_lang_pl
+      %option{:value => 'pt-BR', :selected => Option.plusone_lang == 'pt-BR'}= t.plusone_lang_ptBR
+      %option{:value => 'pt-PT', :selected => Option.plusone_lang == 'pt-PT'}= t.plusone_lang_ptPT
+      %option{:value => 'ro', :selected => Option.plusone_lang == 'ro'}= t.plusone_lang_ro
+      %option{:value => 'ru', :selected => Option.plusone_lang == 'ru'}= t.plusone_lang_ru
+      %option{:value => 'sr', :selected => Option.plusone_lang == 'sr'}= t.plusone_lang_sr
+      %option{:value => 'sk', :selected => Option.plusone_lang == 'sk'}= t.plusone_lang_sk
+      %option{:value => 'sl', :selected => Option.plusone_lang == 'sl'}= t.plusone_lang_sl
+      %option{:value => 'es', :selected => Option.plusone_lang == 'es'}= t.plusone_lang_es
+      %option{:value => 'es-419', :selected => Option.plusone_lang == 'es-419'}= t.plusone_lang_es419
+      %option{:value => 'sv', :selected => Option.plusone_lang == 'sv'}= t.plusone_lang_sv
+      %option{:value => 'th', :selected => Option.plusone_lang == 'th'}= t.plusone_lang_th
+      %option{:value => 'tr', :selected => Option.plusone_lang == 'tr'}= t.plusone_lang_tr
+      %option{:value => 'uk', :selected => Option.plusone_lang == 'uk'}= t.plusone_lang_uk
+      %option{:value => 'vi', :selected => Option.plusone_lang == 'vi'}= t.plusone_lang_vi
+  .field
+    %label{:for => 'plusone_parsetags'}= t.plusone_parsetags
+    %br
+    %select{:id => 'plusone_parsetags', :name => 'plusone_parsetags'}
+      %option{:value => 'onload', :selected => Option.plusone_parsetags == 'onload' || Option.plusone_parsetags.blank?}= t.plusone_parsetags_onload
+      %option{:value => 'explicit', :selected => Option.plusone_parsetags == 'explicit'}= t.plusone_parsetags_explicit
+  .field
+    %label{:for => 'plusone_callback_js'}= t.plusone_callback_js + " (#{t.plusone_optional})"
+    %br
+    %input{:type => 'text', :id => 'plusone_callback_js', :name => 'plusone_callback_js', :value => Option.plusone_callback_js}
+  .field
+    %input{:type => 'submit', :value => t.edit}
