@@ -14,6 +14,6 @@ Run these commands:
 Usage
 -----
 
-You can set options in the admin page [Plugins]->[Pluseone Button].
+You can set options in the admin page [Plugins]->[Pluseone].
 
 There are two helper methods. One is "plusone_js" to output JavaScript for +1 button. Antoher is "plusone" and it will output g:plusone tag.
