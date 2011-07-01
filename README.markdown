@@ -16,4 +16,13 @@ Usage
 
 You can set options in the admin page [Plugins]->[Pluseone].
 
-There are two helper methods. One is "plusone_js" to output JavaScript for +1 button. Antoher is "plusone" and it will output g:plusone tag.
+There are two helper methods.
+
+One is "plusone_js" to output JavaScript for +1 button.
+
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+
+Antoher is "plusone" and it will output g:plusone(DOM) or div(HTML5) tag.
+
+    <g:plusone size="medium" count="false" lang="ja"></g:plusone>
+    <div class="g-plusone" data-size="medium" data-count="false" data-lang="ja"></div>
