@@ -1,63 +1,64 @@
-plusone: +1 Button
-plusone_updated: Updated.
-plusone_optional: Optional
-plusone_size: Size
-plusone_size_small: Small (15px)
-plusone_size_medium: Medium (20px)
-plusone_size_standard: Standard (24px)
-plusone_size_tall: Tall (60px)
-plusone_counter: Counter
-plusone_counter_true: Show
-plusone_counter_false: DO NOT show
-plusone_lang: Language
-plusone_lang_ar: Arabic
-plusone_lang_bg: Bulgarian
-plusone_lang_ca: Catalan
-plusone_lang_zhCN: Chinese (Simplified)
-plusone_lang_zhTW: Chinese (Traditional)
-plusone_lang_hr: Croatian
-plusone_lang_cs: Czech
-plusone_lang_da: Danish
-plusone_lang_nl: Dutch
-plusone_lang_enGB: English (UK)
-plusone_lang_enUS: English (US)
-plusone_lang_et: Estonian
-plusone_lang_fil: Filipino
-plusone_lang_fi: Finnish
-plusone_lang_fr: French
-plusone_lang_de: German
-plusone_lang_el: Greek
-plusone_lang_iw: Hebrew
-plusone_lang_hi: Hindi
-plusone_lang_hu: Hungarian
-plusone_lang_id: Indonesian
-plusone_lang_it: Italian
-plusone_lang_ja: Japanese
-plusone_lang_ko: Korean
-plusone_lang_lv: Latvian
-plusone_lang_lt: Lithuanian
-plusone_lang_ms: Malay
-plusone_lang_no: Norwegian
-plusone_lang_fa: Persian
-plusone_lang_pl: Polish
-plusone_lang_ptBR: Portuguese (Brazil) 
-plusone_lang_ptPT: Portuguese (Portugal)
-plusone_lang_ro: Romanian
-plusone_lang_ru: Russian
-plusone_lang_sr: Serbian
-plusone_lang_sk: Slovak
-plusone_lang_sl: Slovenian
-plusone_lang_es: Spanish
-plusone_lang_es419: Spanish (Latin America)
-plusone_lang_sv: Swedish
-plusone_lang_th: Thai
-plusone_lang_tr: Turkish
-plusone_lang_uk: Ukrainian
-plusone_lang_vi: Vietnamese
-plusone_parsetags: Parse
-plusone_parsetags_onload: onload (Default)
-plusone_parsetags_explicit: explicit
-plusone_callback_js: JS Callback function
-plusone_tag_type: Tag Type
-plusone_tag_type_dom: DOM
-plusone_tag_type_html5: HTML5
+en:
+  plusone: +1 Button
+  plusone_updated: Updated.
+  plusone_optional: Optional
+  plusone_size: Size
+  plusone_size_small: Small (15px)
+  plusone_size_medium: Medium (20px)
+  plusone_size_standard: Standard (24px)
+  plusone_size_tall: Tall (60px)
+  plusone_counter: Counter
+  plusone_counter_true: Show
+  plusone_counter_false: DO NOT show
+  plusone_lang: Language
+  plusone_lang_ar: Arabic
+  plusone_lang_bg: Bulgarian
+  plusone_lang_ca: Catalan
+  plusone_lang_zhCN: Chinese (Simplified)
+  plusone_lang_zhTW: Chinese (Traditional)
+  plusone_lang_hr: Croatian
+  plusone_lang_cs: Czech
+  plusone_lang_da: Danish
+  plusone_lang_nl: Dutch
+  plusone_lang_enGB: English (UK)
+  plusone_lang_enUS: English (US)
+  plusone_lang_et: Estonian
+  plusone_lang_fil: Filipino
+  plusone_lang_fi: Finnish
+  plusone_lang_fr: French
+  plusone_lang_de: German
+  plusone_lang_el: Greek
+  plusone_lang_iw: Hebrew
+  plusone_lang_hi: Hindi
+  plusone_lang_hu: Hungarian
+  plusone_lang_id: Indonesian
+  plusone_lang_it: Italian
+  plusone_lang_ja: Japanese
+  plusone_lang_ko: Korean
+  plusone_lang_lv: Latvian
+  plusone_lang_lt: Lithuanian
+  plusone_lang_ms: Malay
+  plusone_lang_no: Norwegian
+  plusone_lang_fa: Persian
+  plusone_lang_pl: Polish
+  plusone_lang_ptBR: Portuguese (Brazil) 
+  plusone_lang_ptPT: Portuguese (Portugal)
+  plusone_lang_ro: Romanian
+  plusone_lang_ru: Russian
+  plusone_lang_sr: Serbian
+  plusone_lang_sk: Slovak
+  plusone_lang_sl: Slovenian
+  plusone_lang_es: Spanish
+  plusone_lang_es419: Spanish (Latin America)
+  plusone_lang_sv: Swedish
+  plusone_lang_th: Thai
+  plusone_lang_tr: Turkish
+  plusone_lang_uk: Ukrainian
+  plusone_lang_vi: Vietnamese
+  plusone_parsetags: Parse
+  plusone_parsetags_onload: onload (Default)
+  plusone_parsetags_explicit: explicit
+  plusone_callback_js: JS Callback function
+  plusone_tag_type: Tag Type
+  plusone_tag_type_dom: DOM
+  plusone_tag_type_html5: HTML5
